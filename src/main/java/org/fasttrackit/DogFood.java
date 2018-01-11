@@ -5,6 +5,11 @@ public class DogFood {
     double quantity;
     String company;
     Boolean wetFood;
+
+    public DogFood(String company) {
+        this.company = company;
+    }
+
     String expirationDate;
     String color;
 

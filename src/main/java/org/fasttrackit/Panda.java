@@ -1,6 +1,8 @@
 package org.fasttrackit;
 
-public class Panda {
+public class Panda extends Animal {
+
 
     double weight;
 }
+
