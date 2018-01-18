@@ -8,6 +8,11 @@ public class Rescuer {
     Boolean fast;
     double age;
 
+
+    public void feed(Animal animal, DogFood food) {
+        System.out.println(this.name + "just gave some" +  food.getName()+ "food to" + animal.getName());
+    }
+
     public String feed(String Animal, String Food) {
         System.out.println(Animal);
         System.out.println(Food);
